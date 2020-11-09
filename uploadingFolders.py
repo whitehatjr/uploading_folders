@@ -27,7 +27,7 @@ def main():
     access_token = 'riFu6Ybhc9AAAAAAAAAAHWkfE9AiGyD6n4254tOxesw7ShRjGjFhrjhRVa3NX3mx'
     transferData = TransferData(access_token)
 
-    file_from = str(input("Enter the file path to transfer : -"))
+    file_from = str(input("Enter the folder path to transfer : -"))
     file_to = input("enter the full path to upload to dropbox:- ")  # This is the full path to upload the file to, including name that you wish the file to be called once uploaded.
 
     # API v2
